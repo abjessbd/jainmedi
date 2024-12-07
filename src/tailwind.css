@@ -3,6 +3,7 @@
 @tailwind utilities;
 
 @layer base {
+
   body,
   .page-wrapper {
     @apply min-h-screen font-body text-lg leading-[1.66];
@@ -33,6 +34,7 @@
   h5 {
     @apply text-4xl;
   }
+
   h6 {
     @apply text-4xl;
   }
@@ -49,24 +51,30 @@
 
 @layer components {
   .btn {
-    @apply ;
+    @apply py-3 px-5 rounded-md;
+  }
+
+  .btn-primary {
+    @apply bg-green text-white;
   }
 }
 
-.container{
+.container {
   @apply max-w-full mx-auto px-5 sm:px-0 sm:max-w-[540px] md:max-w-[720px] lg:max-w-[960px] xl:max-w-[1170px]
 }
 
-.container-full{
+.container-full {
   @apply mx-auto xl:max-w-[1920px]
 }
 
-.section-space{
+.section-space {
   @apply py-[60px] lg:py-20 xl:py-[100px] xxl:py-[120px]
 }
-.section-space-top{
+
+.section-space-top {
   @apply pt-[60px] lg:pt-20 xl:pt-[100px] xxl:pt-[120px]
 }
-.section-space-bottom{
+
+.section-space-bottom {
   @apply pb-[60px] lg:pb-20 xl:pb-[100px] xxl:pb-[120px]
 }

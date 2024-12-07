@@ -1,89 +1,225 @@
 <!doctype html>
 <html lang="en" class="dark">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Site Title | Preview Page</title>
 
-    <!-- Site font -->
-    <link rel="stylesheet" href="assets/fonts/webfonts/inter/stylesheet.css" />
-    <link
-      rel="stylesheet"
-      href="assets/fonts/webfonts/general-sans/stylesheet.css"
-    />
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Site Title | Preview Page</title>
 
-    <!-- Vendor CSS -->
-    <link rel="stylesheet" href="assets/css/vendors/swiper-bundle.min.css" />
-    <link rel="stylesheet" href="assets/css/vendors/jos.css" />
-    <link rel="stylesheet" href="assets/css/vendors/menu.css" />
+  <!-- Site font -->
+  <link rel="stylesheet" href="assets/fonts/webfonts/inter/stylesheet.css" />
+  <link rel="stylesheet" href="assets/fonts/webfonts/general-sans/stylesheet.css" />
 
-    <!-- Custom CSS -->
-    <link rel="stylesheet" href="assets/css/custom.css" />
+  <!-- Vendor CSS -->
+  <link rel="stylesheet" href="assets/css/vendors/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="assets/css/vendors/jos.css" />
+  <link rel="stylesheet" href="assets/css/vendors/menu.css" />
 
-    <!-- Development css -->
-    <link rel="stylesheet" href="assets/css/style.css" />
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="assets/css/custom.css" />
 
-    <!-- Production css -->
-    <!-- <link rel="stylesheet" href="/assets/css/style.min.css" /> -->
-  </head>
-  <body class="">
-    <div class="page-wrapper relative">
-      <!--...::: Header Start :::... -->
-      <header></header>
-      <!--...::: Header Start :::... -->
+  <!-- Development css -->
+  <link rel="stylesheet" href="assets/css/style.css" />
 
-      <!-- Main Wrapper -->
-      <main class="main-wrapper relative">
-        <!--...::: Hero Section Start :::... -->
-        <section class="section-hero">
-          <!-- Hero Section Space -->
-           <div class="section-space">
+  <!-- Production css -->
+  <!-- <link rel="stylesheet" href="/assets/css/style.min.css" /> -->
+</head>
+
+<body class="">
+  <div class="relative page-wrapper">
+    <!--...::: Header Start :::... -->
+    <header class="w-full bg-white py-4 shadow-md fixed top-0 z-50">
+      <nav class="container flex justify-between items-center">
+        <div>
+          <img src="./assets/images/Logo.png" alt="logo" class="cursor-pointer">
+        </div>
+        <ul class="hidden lg:flex md:gap-5">
+          <li><a href="#" class="transition-all duration-200 pb-7 hover:border-b-4 border-green">Home</a></li>
+          <li><a href="#" class="transition-all duration-200 pb-7 hover:border-b-4 border-green">About</a></li>
+          <li><a href="#" class="transition-all duration-200 pb-7 hover:border-b-4 border-green">Department</a>
+          </li>
+          <li><a href="#" class="transition-all duration-200 pb-7 hover:border-b-4 border-green">Doctor</a></li>
+          <li><a href="#" class="transition-all duration-200 pb-7 hover:border-b-4 border-green">Pages</a></li>
+          <li><a href="#" class="transition-all duration-200 pb-7 hover:border-b-4 border-green">News</a></li>
+          <li><a href="#" class="transition-all duration-200 pb-7 hover:border-b-4 border-green">Contact</a></li>
+        </ul>
+        <div class="flex gap-5">
+          <button class="hidden md:block btn btn-primary transition-all hover:bg-gray-dark">Make An
+            Appoinment</button>
+          <img src="./assets/images/icon/hamburger.svg" alt="hamburger menu" class="w-7 lg:hidden cursor-pointer"
+            id="hamburger-icon">
+          <img src="./assets/images/icon/cross.svg" alt="cross menu" class="w-7 hidden lg:hidden cursor-pointer"
+            id="cross-icon">
+        </div>
+      </nav>
+
+      <!-- Navbar for Mobile -->
+      <div id="mobile-nav"
+        class="container -translate-x-full transition-all duration-500 px-4 md:px-10 py-5 w-3/4 h-screen bg-white fixed top-0 flex flex-col float-start gap-10 lg:hidden">
+        <div>
+          <img src="./assets/images/Logo.png" alt="logo" class="cursor-pointer">
+        </div>
+        <ul class="flex flex-col gap-5">
+          <li><a href="#" class="transition-all duration-200 hover:border-b-4 border-green">Home</a></li>
+          <li><a href="#" class="transition-all duration-200 hover:border-b-4 border-green">About</a></li>
+          <li><a href="#" class="transition-all duration-200 hover:border-b-4 border-green">Department</a></li>
+          <li><a href="#" class="transition-all duration-200 hover:border-b-4 border-green">Doctor</a></li>
+          <li><a href="#" class="transition-all duration-200 hover:border-b-4 border-green">Pages</a></li>
+          <li><a href="#" class="transition-all duration-200 hover:border-b-4 border-green">News</a></li>
+          <li><a href="#" class="transition-all duration-200 hover:border-b-4 border-green">Contact</a></li>
+        </ul>
+        <div>
+          <button class="md:hidden btn btn-primary transition-all hover:bg-gray-dark">Make An Appoinment</button>
+        </div>
+      </div>
+    </header>
+    <!--...::: Header Start :::... -->
+
+    <!-- Main Wrapper -->
+    <main class="relative main-wrapper">
+      <!--...::: Hero Section Start :::... -->
+      <section class="section-hero">
+        <!-- Hero Section Space -->
+        <div class="section-space bg-white mt-8">
+          <!-- Section Container -->
+          <div
+            class="container py-28 grid justify-between items-center 2xl:items-stretch grid-cols-1 gap-12 md:grid-cols-2 2xl:grid-cols-7">
+            <div class="hidden 2xl:block 2xl:max-w-48 2xl:col-span-1">
+              <img src="./assets/images/image/Person-1.png" alt="Person-1">
+            </div>
+            <div class="justify-self-start self-center 2xl:col-span-2 2xl:w-[505px]">
+              <div class="space-y-5">
+                <h1 class="text-4xl lg:text-[40px] xl:text-[52px] lg:leading-[54px] xl:leading-[68px] font-bold">
+                  Improve Your<br>Cardiovascular<br>Health with Diet<br>and Exercise</h1>
+                <p class="text-lg">Medical is commited to helping you improve your cardiovascullar health
+                  through diet and exercise</p>
+                <button class="btn btn-primary transition-all hover:bg-gray-dark">Discover More</button>
+              </div>
+            </div>
+            <div class="self-center 2xl:max-w-[500px] 2xl:col-span-2">
+              <img src="./assets/images/image/Person-2.png" alt="Person-2" class="w-full">
+            </div>
+            <div class="hidden w-full 2xl:flex justify-center items-center 2xl:max-w-md 2xl:mx-auto 2xl:col-span-2">
+              <div class="flex flex-col gap-5">
+                <div class="flex justify-center items-center gap-5">
+                  <div class="basis-1/2 bg-gray-light px-5 py-10 rounded-md text-center flex flex-col gap-4">
+                    <h1 class="text-4xl lg:text-[40px] xl:text-[60px] lg:leading-[54px] xl:leading-[68px] font-bold">
+                      52%</h1>
+                    <small class="font-bold">modelling and <br> analytics</small>
+                  </div>
+                  <div class="basis-1/2 bg-gray-light px-5 py-10 rounded-md text-center flex flex-col gap-4">
+                    <h1 class="text-4xl lg:text-[40px] xl:text-[60px] lg:leading-[54px] xl:leading-[68px] font-bold">
+                      78%</h1>
+                    <small class="font-bold">Analysis and <br> Monitoring</small>
+                  </div>
+                </div>
+                <div class="bg-green text-white p-3 rounded-md">
+                  <p class="text-sm text-center mb-5">“Lorem ipsum dolor sit amet, consectetur adipiscing
+                    elit,
+                    sed do
+                    eiusmod tempor incididunt utlabore et dolore magna aliqua. Purus gravida quis blandit
+                    turpis.”</p>
+                  <div class="flex justify-between items-center">
+                    <div>
+                      <p class="font-bold">Earnest Anderson</p>
+                      <small>Eye Specialist</small>
+                    </div>
+                    <div>
+                      <img src="./assets/images/image/Signature.png" alt="Signature">
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Section Container -->
+        </div>
+        <!-- Hero Section Space -->
+      </section>
+      <!--...::: Hero Section End :::... -->
+
+
+      <!--...::: Feature Section Start :::... -->
+      <section class="section-feature">
+        <!-- About Us Section Space -->
+        <div class="section-space bg-white">
+          <div style="background-image: url('./assets/images/image/about-bg.png')"
+            class="bg-no-repeat bg-cover bg-center">
             <!-- Section Container -->
-             <div class="container">
-              <div class="grid grid-cols-[1fr_minmax(0,0.8fr)]">
-                <div class="bg-green-300 p-10"></div>
-                <div class="bg-red-300 p-10"></div>
-               </div>
-             </div>
+            <div class="container translate-y-28">
+              <div class="flex flex-col lg:flex-row justify-center items-center gap-12 mb-16">
+                <div
+                  class="bg-white rounded-lg px-8 py-12 flex justify-center items-start gap-5 md:h-52 box-border shadow-md">
+                  <img src="./assets/images/icon/about-icon-1.svg" alt="about-icon-1">
+                  <div>
+                    <h4 class="mb-3 text-[17px] leading-6 xl:text-[20px] xl:leading-[30px] font-bold">100%
+                      expert doctors</h4>
+                    <p class="text-lg">Exceptional Care I was impressed with the state-of-the-art equipment
+                      they used for my
+                      treatments.
+                    </p>
+                  </div>
+                </div>
+                <div
+                  class="bg-white rounded-lg px-8 py-12 flex justify-center items-start gap-5 md:h-52 box-border shadow-md">
+                  <img src="./assets/images/icon/about-icon-2.svg" alt="about-icon-2">
+                  <div>
+                    <h4 class="mb-3 text-[17px] leading-6 xl:text-[20px] xl:leading-[30px] font-bold">
+                      instant medicine & operation</h4>
+                    <p class="text-lg">Surgical operations are carefully planned and executed by skilled
+                      surgeons and
+                      medical teams
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="bg-white rounded-lg flex flex-col md:flex-row justify-center items-start gap-12 px-6 py-8 md:px-12 md:py-16 shadow-sm">
+                <img class="w-full" src="./assets/images/image/about-img.png" alt="about-img">
+                <div>
+                  <h2 class="mb-5 text-[26px] leading-[40px] xl:text-[40px] xl:leading-[54px] font-bold"><span
+                      class="text-green">Managing chronic</span> pain can be a difficult
+                    and
+                    frustrating
+                    process, but <span class="text-green">there are many
+                      treatment</span> options available to
+                    help.</h2>
+                  <p class="mb-5 text-lg">Jainmadi went above and beyond to ensure I received the best medical
+                    care
+                    possible. They took
+                    the time to listen to my
+                    concerns, answer my questions, and thoroughly explain my diagnosis and treatment
+                    options.
+                    It's evident that they
+                    genuinely care about their patient's well-being</p>
+                  <button class="btn btn-primary transition-all hover:bg-gray-dark">Learn About
+                    Us</button>
+                </div>
+              </div>
+            </div>
             <!-- Section Container -->
-           </div>
-          <!-- Hero Section Space -->
-        </section>
-        <!--...::: Hero Section End :::... -->
+          </div>
+        </div>
+        <!-- About Us Section Space -->
+      </section>
+      <!--...::: Feature Section End :::... -->
+    </main>
+    <!-- Main Wrapper -->
 
+    <!--...::: Footer Section Start :::... -->
+    <footer class="section-footer"></footer>
+    <!--...::: Footer Section Start :::... -->
+  </div>
 
-        <!--...::: Feature Section Start :::... -->
-        <section class="section-feature">
-          <!-- Hero Section Space -->
-           <div class="bg-gray-200 section-space">
-            <!-- Section Container -->
-             <div class="container-full">
-               <div class="grid grid-cols-[1fr_minmax(0,0.8fr)]">
-                <div class="bg-green-300 p-10"></div>
-                <div class="bg-red-300 p-10"></div>
-               </div>
-             </div>
-            <!-- Section Container -->
-           </div>
-          <!-- Hero Section Space -->
-        </section>
-        <!--...::: Feature Section End :::... -->
-      </main>
-      <!-- Main Wrapper -->
+  <!--Vendor js-->
+  <script src="assets/js/vendors/counterup.js" type="module"></script>
+  <script src="assets/js/vendors/swiper-bundle.min.js"></script>
+  <script src="assets/js/vendors/fslightbox.js"></script>
+  <script src="assets/js/vendors/jos.min.js"></script>
+  <script src="assets/js/vendors/menu.js"></script>
 
-      <!--...::: Footer Section Start :::... -->
-      <footer class="section-footer"></footer>
-      <!--...::: Footer Section Start :::... -->
-    </div>
+  <!-- Main js -->
+  <script src="assets/js/main.js"></script>
+</body>
 
-    <!--Vendor js-->
-    <script src="assets/js/vendors/counterup.js" type="module"></script>
-    <script src="assets/js/vendors/swiper-bundle.min.js"></script>
-    <script src="assets/js/vendors/fslightbox.js"></script>
-    <script src="assets/js/vendors/jos.min.js"></script>
-    <script src="assets/js/vendors/menu.js"></script>
-
-    <!-- Main js -->
-    <script src="assets/js/main.js"></script>
-  </body>
 </html>

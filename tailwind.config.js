@@ -27,7 +27,11 @@ module.exports = {
       },
 
       colors: {
-        colorPrimary: "#191919",
+        'white': '#FFFFFF',
+        'black': '#0D2825',
+        'green': '#32B9A9',
+        'gray-dark': '#606968',
+        'gray-light': '#F1F5F5'
       },
     },
   },
