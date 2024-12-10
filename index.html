@@ -28,99 +28,105 @@
 <body class="">
   <div class="relative page-wrapper">
     <!--...::: Header Start :::... -->
-    <header class="w-full bg-white py-4 shadow-md fixed top-0 z-50">
-      <nav class="container flex justify-between items-center">
-        <div>
-          <img src="./assets/images/Logo.png" alt="logo" class="cursor-pointer">
-        </div>
-        <ul class="hidden lg:flex md:gap-5">
-          <li><a href="#" class="transition-all duration-200 pb-7 hover:border-b-4 border-green">Home</a></li>
-          <li><a href="#" class="transition-all duration-200 pb-7 hover:border-b-4 border-green">About</a></li>
-          <li><a href="#" class="transition-all duration-200 pb-7 hover:border-b-4 border-green">Department</a>
-          </li>
-          <li><a href="#" class="transition-all duration-200 pb-7 hover:border-b-4 border-green">Doctor</a></li>
-          <li><a href="#" class="transition-all duration-200 pb-7 hover:border-b-4 border-green">Pages</a></li>
-          <li><a href="#" class="transition-all duration-200 pb-7 hover:border-b-4 border-green">News</a></li>
-          <li><a href="#" class="transition-all duration-200 pb-7 hover:border-b-4 border-green">Contact</a></li>
-        </ul>
-        <div class="flex gap-5">
-          <button class="hidden md:block btn btn-primary">Make An
-            Appoinment</button>
-          <img src="./assets/images/icon/hamburger.svg" alt="hamburger menu" class="w-7 lg:hidden cursor-pointer"
-            id="hamburger-icon">
-          <img src="./assets/images/icon/cross.svg" alt="cross menu" class="w-7 hidden lg:hidden cursor-pointer"
-            id="cross-icon">
-        </div>
-      </nav>
+    <div class="mb-16">
+      <header class="w-full bg-white py-4 shadow-md fixed top-0 z-50">
+        <nav class="container flex justify-between items-center">
+          <div>
+            <img src="./assets/images/Logo.png" alt="logo" class="cursor-pointer">
+          </div>
+          <ul class="hidden lg:flex md:gap-5">
+            <li><a href="#" class="transition-all duration-200 pb-7 hover:border-b-4 border-green">Home</a></li>
+            <li><a href="#" class="transition-all duration-200 pb-7 hover:border-b-4 border-green">About</a></li>
+            <li><a href="#" class="transition-all duration-200 pb-7 hover:border-b-4 border-green">Department</a>
+            </li>
+            <li><a href="#" class="transition-all duration-200 pb-7 hover:border-b-4 border-green">Doctor</a></li>
+            <li><a href="#" class="transition-all duration-200 pb-7 hover:border-b-4 border-green">Pages</a></li>
+            <li><a href="#" class="transition-all duration-200 pb-7 hover:border-b-4 border-green">News</a></li>
+            <li><a href="#" class="transition-all duration-200 pb-7 hover:border-b-4 border-green">Contact</a></li>
+          </ul>
+          <div class="flex gap-5">
+            <button class="hidden md:block btn btn-primary">Make An
+              Appoinment</button>
+            <img src="./assets/images/icon/hamburger.svg" alt="hamburger menu" class="w-7 lg:hidden cursor-pointer"
+              id="hamburger-icon">
+            <img src="./assets/images/icon/cross.svg" alt="cross menu" class="w-7 hidden lg:hidden cursor-pointer"
+              id="cross-icon">
+          </div>
+        </nav>
 
-      <!-- Navbar for Mobile -->
-      <div id="mobile-nav"
-        class="container shadow-lg -translate-x-full transition-all duration-500 px-4 md:px-10 py-5 w-3/4 h-screen bg-white fixed top-0 flex flex-col gap-10 lg:hidden">
-        <div>
-          <img src="./assets/images/Logo.png" alt="logo" class="cursor-pointer">
+        <!-- Navbar for Mobile -->
+        <div id="mobile-nav"
+          class="container shadow-lg -translate-x-full transition-all duration-500 px-4 md:px-10 py-5 w-3/4 mx-autoh-screen bg-white fixed top-0 flex flex-col gap-10 lg:hidden">
+          <div>
+            <img src="./assets/images/Logo.png" alt="logo" class="cursor-pointer">
+          </div>
+          <ul class="flex flex-col gap-5">
+            <li><a href="#" class="transition-all duration-200 hover:border-b-4 border-green">Home</a></li>
+            <li><a href="#" class="transition-all duration-200 hover:border-b-4 border-green">About</a></li>
+            <li><a href="#" class="transition-all duration-200 hover:border-b-4 border-green">Department</a></li>
+            <li><a href="#" class="transition-all duration-200 hover:border-b-4 border-green">Doctor</a></li>
+            <li><a href="#" class="transition-all duration-200 hover:border-b-4 border-green">Pages</a></li>
+            <li><a href="#" class="transition-all duration-200 hover:border-b-4 border-green">News</a></li>
+            <li><a href="#" class="transition-all duration-200 hover:border-b-4 border-green">Contact</a></li>
+          </ul>
+          <div>
+            <button class="md:hidden btn btn-primary">Make An Appoinment</button>
+          </div>
         </div>
-        <ul class="flex flex-col gap-5">
-          <li><a href="#" class="transition-all duration-200 hover:border-b-4 border-green">Home</a></li>
-          <li><a href="#" class="transition-all duration-200 hover:border-b-4 border-green">About</a></li>
-          <li><a href="#" class="transition-all duration-200 hover:border-b-4 border-green">Department</a></li>
-          <li><a href="#" class="transition-all duration-200 hover:border-b-4 border-green">Doctor</a></li>
-          <li><a href="#" class="transition-all duration-200 hover:border-b-4 border-green">Pages</a></li>
-          <li><a href="#" class="transition-all duration-200 hover:border-b-4 border-green">News</a></li>
-          <li><a href="#" class="transition-all duration-200 hover:border-b-4 border-green">Contact</a></li>
-        </ul>
-        <div>
-          <button class="md:hidden btn btn-primary">Make An Appoinment</button>
-        </div>
-      </div>
-    </header>
-    <!--...::: Header Start :::... -->
+      </header>
+    </div>
+    <!--...::: Header End :::... -->
 
     <!-- Main Wrapper -->
     <main class="relative main-wrapper">
       <!--...::: Hero Section Start :::... -->
       <section class="section-hero">
         <!-- Hero Section Space -->
-        <div class="section-space-top bg-white">
+        <div class="section-space bg-white">
           <!-- Section Container -->
-          <div class="container grid xl:grid-cols-7 items-center gap-5">
-            <div class="max-w-[190px] max-h-[340px] xl:col-span-1 xl:self-start xl:justify-self-start">
+          <div class="container grid lg:grid-cols-2 xl:grid-cols-7 items-center gap-5">
+            <div class="hidden xl:block max-w-[190px] max-h-[340px] xl:col-span-1 xl:self-start xl:justify-self-start">
               <img class="w-full bg-center" src="./assets/images/image/Person-1.png" alt="Person-1">
             </div>
-            <div class="xl:col-span-2">
-              <div class="flex flex-col justify-center items-start gap-5">
-                <h1 class="xl:text-4xl">
-                  Improve Your <br> Cardiovascular <br> Health with Diet <br> and Exercise</h1>
-                <p>Medical is commited to helping you improve your cardiovascullar health
-                  through diet and exercise</p>
-                <button class="btn btn-primary">Discover More</button>
-              </div>
+            <div class="mb-10 lg:mb-0 lg:col-span-1 xl:col-span-2">
+              <h1 class="md:text-6xl xl:text-4xl mb-7">
+                Improve Your <br> Cardiovascular <br> Health with Diet <br> and Exercise</h1>
+              <p>Medical is commited to helping you improve your cardiovascullar health
+                through diet and exercise</p>
+              <button class="btn btn-primary">Discover More</button>
             </div>
-            <div class="max-w-[500px] max-h-[775px] xl:col-span-2 xl:self-start xl:justify-self-center">
+            <div
+              class="lg:col-span-1 max-w-[500px] max-h-[775px] mx-auto xl:col-span-2 xl:self-start xl:justify-self-center">
               <img class="w-full bg-center" src="./assets/images/image/Person-2.png" alt="Person-2">
             </div>
-            <div class="xl:col-span-2">
-              <div class="">
-                <div class="">
-                  <div class="">
+            <div class="hidden xl:block xl:col-span-2">
+              <div class="flex justify-between items-center gap-8 mb-7">
+                <div class="w-full bg-gray-light rounded-md flex justify-center items-center">
+                  <div class="px-6 py-10">
                     <h2>52%</h2>
-                    <small class="">modelling and <br> analytics</small>
-                  </div>
-                  <div class="">
-                    <h2>78%</h2>
-                    <small class="">Analysis and <br> Monitoring</small>
+                    <p class="text-xs font-bold">modelling and analytics</p>
                   </div>
                 </div>
-                <div class="">
-                  <p class="">“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod temporincididunt
-                    utlabore et dolore magna aliqua. Purus gravida quis blandit turpis.”</p>
-                  <div class="">
-                    <div>
-                      <p class="">Earnest Anderson</p>
-                      <small>Eye Specialist</small>
-                    </div>
-                    <div>
-                      <img src="./assets/images/image/Signature.png" alt="Signature">
-                    </div>
+                <div class="w-full bg-gray-light rounded-md flex justify-center items-center">
+                  <div class="px-6 py-10">
+                    <h2>78%</h2>
+                    <p class="text-xs font-bold">Analysis and Monitoring</p>
+                  </div>
+                </div>
+              </div>
+              <div class="bg-green p-6 text-white rounded-lg">
+                <p class="italic text-xs font-bold text-center">“Lorem ipsum dolor sit amet, consectetur adipiscing
+                  elit, sed do
+                  eiusmod
+                  temporincididunt
+                  utlabore et dolore magna aliqua. Purus gravida quis blandit turpis.”</p>
+                <div class="flex justify-between items-center">
+                  <div>
+                    <p class="text-sm font-bold mb-1">Earnest Anderson</p>
+                    <p class="text-xs">Eye Specialist</p>
+                  </div>
+                  <div class="max-w-[126px]">
+                    <img class="w-full bg-center" src="./assets/images/image/Signature.png" alt="Signature">
                   </div>
                 </div>
               </div>
@@ -186,8 +192,7 @@
                     options.
                     It's evident that they
                     genuinely care about their patient's well-being</p>
-                  <button class="btn btn-primary transition-all hover:bg-gray-dark">Learn About
-                    Us</button>
+                  <button class="btn btn-primary">Learn About Us</button>
                 </div>
               </div>
             </div>

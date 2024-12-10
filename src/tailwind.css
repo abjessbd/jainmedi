@@ -20,7 +20,7 @@
   }
 
   h1 {
-    @apply text-6xl;
+    @apply text-4xl;
   }
 
   h2 {
@@ -41,7 +41,7 @@
 
   a,
   button {
-    @apply text-xl;
+    @apply text-base xl:text-xl;
   }
 
   p {
