@@ -606,7 +606,7 @@ a,
   line-height: 1.5rem;
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 1280px) {
   a,
   button {
     font-size: 1.25rem;
@@ -626,9 +626,9 @@ p:last-child {
   width: 100%;
 }
 
-@media (min-width: 576px) {
+@media (min-width: 640px) {
   .container {
-    max-width: 576px;
+    max-width: 640px;
   }
 }
 
@@ -638,21 +638,21 @@ p:last-child {
   }
 }
 
-@media (min-width: 992px) {
+@media (min-width: 1024px) {
   .container {
-    max-width: 992px;
+    max-width: 1024px;
   }
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 1280px) {
   .container {
-    max-width: 1200px;
+    max-width: 1280px;
   }
 }
 
-@media (min-width: 1400px) {
+@media (min-width: 1536px) {
   .container {
-    max-width: 1400px;
+    max-width: 1536px;
   }
 }
 
@@ -742,10 +742,6 @@ p:last-child {
 
 .h-\[580px\] {
   height: 580px;
-}
-
-.h-screen {
-  height: 100vh;
 }
 
 .max-h-\[340px\] {
@@ -1009,7 +1005,7 @@ p:last-child {
   padding-right: 1.25rem;
 }
 
-@media (min-width: 576px) {
+@media (min-width: 640px) {
   .container {
     max-width: 540px;
     padding-left: 0px;
@@ -1023,13 +1019,13 @@ p:last-child {
   }
 }
 
-@media (min-width: 992px) {
+@media (min-width: 1024px) {
   .container {
     max-width: 960px;
   }
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 1280px) {
   .container {
     max-width: 1170px;
   }
@@ -1038,9 +1034,38 @@ p:last-child {
 .container-full {
   margin-left: auto;
   margin-right: auto;
+  max-width: 100%;
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 640px) {
+  .container-full {
+    max-width: 540px;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+}
+
+@media (min-width: 768px) {
+  .container-full {
+    max-width: 720px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .container-full {
+    max-width: 960px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .container-full {
+    max-width: 1170px;
+  }
+}
+
+@media (min-width: 1536px) {
   .container-full {
     max-width: 1920px;
   }
@@ -1051,21 +1076,21 @@ p:last-child {
   padding-bottom: 60px;
 }
 
-@media (min-width: 992px) {
+@media (min-width: 1024px) {
   .section-space {
     padding-top: 5rem;
     padding-bottom: 5rem;
   }
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 1280px) {
   .section-space {
     padding-top: 100px;
     padding-bottom: 100px;
   }
 }
 
-@media (min-width: 1400px) {
+@media (min-width: 1536px) {
   .section-space {
     padding-top: 120px;
     padding-bottom: 120px;
@@ -1076,19 +1101,19 @@ p:last-child {
   padding-top: 60px;
 }
 
-@media (min-width: 992px) {
+@media (min-width: 1024px) {
   .section-space-top {
     padding-top: 5rem;
   }
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 1280px) {
   .section-space-top {
     padding-top: 100px;
   }
 }
 
-@media (min-width: 1400px) {
+@media (min-width: 1536px) {
   .section-space-top {
     padding-top: 120px;
   }
@@ -1098,19 +1123,19 @@ p:last-child {
   padding-bottom: 60px;
 }
 
-@media (min-width: 992px) {
+@media (min-width: 1024px) {
   .section-space-bottom {
     padding-bottom: 5rem;
   }
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 1280px) {
   .section-space-bottom {
     padding-bottom: 100px;
   }
 }
 
-@media (min-width: 1400px) {
+@media (min-width: 1536px) {
   .section-space-bottom {
     padding-bottom: 120px;
   }
@@ -1120,12 +1145,7 @@ p:last-child {
   border-bottom-width: 4px;
 }
 
-.hover\:bg-gray-dark:hover {
-  --tw-bg-opacity: 1;
-  background-color: rgb(96 105 104 / var(--tw-bg-opacity, 1));
-}
-
-@media (min-width: 576px) {
+@media (min-width: 640px) {
   .sm\:pb-\[1000px\] {
     padding-bottom: 1000px;
   }
@@ -1173,7 +1193,7 @@ p:last-child {
   }
 }
 
-@media (min-width: 992px) {
+@media (min-width: 1024px) {
   .lg\:col-span-1 {
     grid-column: span 1 / span 1;
   }
@@ -1201,9 +1221,14 @@ p:last-child {
   .lg\:pb-\[500px\] {
     padding-bottom: 500px;
   }
+
+  .lg\:text-4xl {
+    font-size: 2.25rem;
+    line-height: 2.5rem;
+  }
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 1280px) {
   .xl\:col-span-1 {
     grid-column: span 1 / span 1;
   }
@@ -1232,11 +1257,6 @@ p:last-child {
     justify-self: center;
   }
 
-  .xl\:text-4xl {
-    font-size: 2.25rem;
-    line-height: 2.5rem;
-  }
-
   .xl\:text-\[20px\] {
     font-size: 20px;
   }
@@ -1245,11 +1265,23 @@ p:last-child {
     font-size: 40px;
   }
 
+  .xl\:text-4xl {
+    font-size: 2.25rem;
+    line-height: 2.5rem;
+  }
+
   .xl\:leading-\[30px\] {
     line-height: 30px;
   }
 
   .xl\:leading-\[54px\] {
     line-height: 54px;
+  }
+}
+
+@media (min-width: 1536px) {
+  .xxl\:text-6xl {
+    font-size: 3.75rem;
+    line-height: 1;
   }
 }
