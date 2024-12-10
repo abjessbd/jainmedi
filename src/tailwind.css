@@ -64,7 +64,7 @@
 }
 
 .container-full {
-  @apply max-w-full mx-auto px-5 sm:px-0 sm:max-w-[540px] md:max-w-[720px] lg:max-w-[960px] xl:max-w-[1170px] xxl:max-w-[1920px]
+  @apply mx-auto px-5 xxl:max-w-[1920px]
 }
 
 .section-space {
