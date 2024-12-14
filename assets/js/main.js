@@ -135,9 +135,9 @@ const swiper = new Swiper(".mySwiper", {
     nextEl: "#nextBtn",
     prevEl: "#previousBtn",
   },
-  // autoplay: {
-  //   delay: 2000,
-  // },
+  autoplay: {
+    delay: 2000,
+  },
   breakpoints: {
     576: {
       slidesPerView: 2

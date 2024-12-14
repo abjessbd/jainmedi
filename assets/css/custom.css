@@ -1,33 +1,26 @@
 .swiper {
-      width: 100%;
-      height: 100%;
-    }
+  width: 100%;
+  height: 100%;
+}
 
 .swiper-slide {
-      text-align: center;
-      font-size: 18px;
-      background: #fff;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-    }
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
-/* .swiper-slide img {
-      display: block;
-      width: 100%;
-      height: 100%;
-      object-fit: cover;
-    } */
-
-  #previousBtn:hover path{
-    fill: #32B9A9;
-  }
-  #previousBtn:hover circle{
-    stroke: #32B9A9;
-  }
-  #nextBtn:hover path{
-    fill: #32B9A9;
-  }
-  #nextBtn:hover circle{
-    stroke: #32B9A9;
-  }
+#previousBtn:hover path{
+  fill: #32B9A9;
+}
+#previousBtn:hover circle{
+  stroke: #32B9A9;
+}
+#nextBtn:hover path{
+  fill: #32B9A9;
+}
+#nextBtn:hover circle{
+  stroke: #32B9A9;
+}
