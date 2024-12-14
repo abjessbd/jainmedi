@@ -128,23 +128,22 @@ cross.addEventListener('click', () => {
 // Swiper slider for Service section
 const swiper = new Swiper(".mySwiper", {
   slidesPerView: 1,
-  spaceBetween: 10,
-  pagination: {
-    el: ".swiper-pagination",
-    clickable: true,
+  spaceBetween: 30,
+  loop: true,
+
+  navigation: {
+    nextEl: "#nextBtn",
+    prevEl: "#previousBtn",
   },
+  // autoplay: {
+  //   delay: 2000,
+  // },
   breakpoints: {
-    640: {
-      slidesPerView: 2,
-      spaceBetween: 20,
+    576: {
+      slidesPerView: 2
     },
     768: {
-      slidesPerView: 4,
-      spaceBetween: 40,
-    },
-    1024: {
-      slidesPerView: 5,
-      spaceBetween: 50,
-    },
-  },
+      slidesPerView: 3
+    }
+  }
 });
