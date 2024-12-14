@@ -126,7 +126,7 @@ cross.addEventListener('click', () => {
 // =========== Project Slider - 1 =============
 
 // Swiper slider for Service section
-const swiper = new Swiper(".mySwiper", {
+new Swiper(".swiper-1", {
   slidesPerView: 1,
   spaceBetween: 30,
   loop: true,
@@ -145,5 +145,28 @@ const swiper = new Swiper(".mySwiper", {
     768: {
       slidesPerView: 3
     }
+  }
+});
+
+// Swiper slider for Inovative section
+new Swiper(".swiper-2", {
+  slidesPerView: 1,
+  spaceBetween: 30,
+  loop: true,
+
+  navigation: {
+    nextEl: "#innovative-next-btn",
+    prevEl: "#innovative-pre-btn",
+  },
+  autoplay: {
+    delay: 2000,
+  },
+  breakpoints: {
+    768: {
+      slidesPerView: 2
+    },
+    1024: {
+      slidesPerView: 3
+    },
   }
 });

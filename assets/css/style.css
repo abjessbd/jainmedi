@@ -740,14 +740,6 @@ p:last-child {
   box-sizing: border-box;
 }
 
-.inline-block {
-  display: inline-block;
-}
-
-.inline {
-  display: inline;
-}
-
 .flex {
   display: flex;
 }
@@ -850,6 +842,14 @@ p:last-child {
   gap: 2rem;
 }
 
+.gap-16 {
+  gap: 4rem;
+}
+
+.gap-3 {
+  gap: 0.75rem;
+}
+
 .rounded-\[5px\] {
   border-radius: 5px;
 }
@@ -880,11 +880,6 @@ p:last-child {
 .bg-white {
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity, 1));
-}
-
-.bg-red-300 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(252 165 165 / var(--tw-bg-opacity, 1));
 }
 
 .bg-cover {
@@ -945,6 +940,46 @@ p:last-child {
 .py-8 {
   padding-top: 2rem;
   padding-bottom: 2rem;
+}
+
+.px-20 {
+  padding-left: 5rem;
+  padding-right: 5rem;
+}
+
+.py-28 {
+  padding-top: 7rem;
+  padding-bottom: 7rem;
+}
+
+.px-10 {
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
+}
+
+.py-14 {
+  padding-top: 3.5rem;
+  padding-bottom: 3.5rem;
+}
+
+.px-2 {
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+
+.py-3 {
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+}
+
+.px-3 {
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
+}
+
+.px-5 {
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
 }
 
 .pb-7 {
@@ -1199,13 +1234,39 @@ p:last-child {
     height: 13rem;
   }
 
+  .md\:flex-row {
+    flex-direction: row;
+  }
+
   .md\:gap-5 {
     gap: 1.25rem;
+  }
+
+  .md\:gap-16 {
+    gap: 4rem;
   }
 
   .md\:px-10 {
     padding-left: 2.5rem;
     padding-right: 2.5rem;
+  }
+
+  .md\:px-20 {
+    padding-left: 5rem;
+    padding-right: 5rem;
+  }
+
+  .md\:py-28 {
+    padding-top: 7rem;
+    padding-bottom: 7rem;
+  }
+
+  .md\:text-left {
+    text-align: left;
+  }
+
+  .md\:text-center {
+    text-align: center;
   }
 }
 
