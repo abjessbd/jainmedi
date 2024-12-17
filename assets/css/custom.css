@@ -14,19 +14,19 @@
 }
 
 /* Service section */
-#previousBtn:hover path {
+#previousBtn:hover path, #innovative-pre-btn:hover path {
   fill: #32B9A9;
 }
 
-#previousBtn:hover circle {
+#previousBtn:hover circle, #innovative-pre-btn:hover circle {
   stroke: #32B9A9;
 }
 
-#nextBtn:hover path {
+#nextBtn:hover path, #innovative-next-btn:hover path {
   fill: #32B9A9;
 }
 
-#nextBtn:hover circle {
+#nextBtn:hover circle, #innovative-next-btn:hover circle {
   stroke: #32B9A9;
 }
 
@@ -36,22 +36,6 @@
   width: 100%;
   height: 100%;
   object-fit: cover;
-}
-
-#innovative-pre-btn:hover path {
-  fill: #32B9A9;
-}
-
-#innovative-pre-btn:hover circle {
-  stroke: #32B9A9;
-}
-
-#innovative-next-btn:hover path {
-  fill: #32B9A9;
-}
-
-#innovative-next-btn:hover circle {
-  stroke: #32B9A9;
 }
 
 .inovative-swiper:hover > div {

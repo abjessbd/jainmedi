@@ -170,3 +170,18 @@ new Swiper(".swiper-2", {
     },
   }
 });
+
+// Swiper slider for Patients say section
+new Swiper(".swiper-3", {
+  slidesPerView: 1,
+  spaceBetween: 30,
+  loop: true,
+
+  navigation: {
+    nextEl: "#patientsayNextBtn",
+    prevEl: "#patientsayPreBtn",
+  },
+  // autoplay: {
+  //   delay: 2000,
+  // },
+});
