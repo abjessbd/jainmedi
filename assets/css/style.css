@@ -695,8 +695,16 @@ p:last-child {
   inset: 0px;
 }
 
+.bottom-12 {
+  bottom: 3rem;
+}
+
 .left-1\/2 {
   left: 50%;
+}
+
+.right-0 {
+  right: 0px;
 }
 
 .top-0 {
@@ -705,22 +713,6 @@ p:last-child {
 
 .top-1\/2 {
   top: 50%;
-}
-
-.bottom-10 {
-  bottom: 2.5rem;
-}
-
-.right-7 {
-  right: 1.75rem;
-}
-
-.right-0 {
-  right: 0px;
-}
-
-.bottom-12 {
-  bottom: 3rem;
 }
 
 .-z-10 {
@@ -774,14 +766,6 @@ p:last-child {
 
 .mt-10 {
   margin-top: 2.5rem;
-}
-
-.mt-0 {
-  margin-top: 0px;
-}
-
-.mb-0 {
-  margin-bottom: 0px;
 }
 
 .box-border {
@@ -840,10 +824,6 @@ p:last-child {
   width: 1.75rem;
 }
 
-.w-\[100px\] {
-  width: 100px;
-}
-
 .w-\[64px\] {
   width: 64px;
 }
@@ -896,12 +876,12 @@ p:last-child {
   cursor: pointer;
 }
 
-.grid-cols-5 {
-  grid-template-columns: repeat(5, minmax(0, 1fr));
-}
-
 .grid-cols-1 {
   grid-template-columns: repeat(1, minmax(0, 1fr));
+}
+
+.grid-cols-5 {
+  grid-template-columns: repeat(5, minmax(0, 1fr));
 }
 
 .flex-col {
@@ -1368,10 +1348,6 @@ p:last-child {
     height: 13rem;
   }
 
-  .md\:grid-cols-2 {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-  }
-
   .md\:flex-row {
     flex-direction: row;
   }
@@ -1415,6 +1391,10 @@ p:last-child {
 
   .lg\:col-span-3 {
     grid-column: span 3 / span 3;
+  }
+
+  .lg\:-mt-28 {
+    margin-top: -7rem;
   }
 
   .lg\:mb-0 {
@@ -1530,10 +1510,6 @@ p:last-child {
 }
 
 @media (min-width: 1400px) {
-  .xxl\:mt-0 {
-    margin-top: 0px;
-  }
-
   .xxl\:text-5xl {
     font-size: 3rem;
     line-height: 1;

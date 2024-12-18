@@ -178,10 +178,10 @@ new Swiper(".swiper-3", {
   loop: true,
 
   navigation: {
-    nextEl: "#patientsayNextBtn",
-    prevEl: "#patientsayPreBtn",
+    nextEl: "#patientsay-next-btn",
+    prevEl: "#patientsay-pre-btn",
   },
-  // autoplay: {
-  //   delay: 2000,
-  // },
+  autoplay: {
+    delay: 2000,
+  },
 });
