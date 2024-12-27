@@ -978,6 +978,10 @@ p:last-child {
   margin-left: calc(0.75rem * calc(1 - var(--tw-space-x-reverse)));
 }
 
+.overflow-hidden {
+  overflow: hidden;
+}
+
 .rounded {
   border-radius: 0.25rem;
 }
@@ -1032,19 +1036,6 @@ p:last-child {
   background-color: rgb(255 255 255 / var(--tw-bg-opacity, 1));
 }
 
-.bg-\[\#F1F5F5\] {
-  --tw-bg-opacity: 1;
-  background-color: rgb(241 245 245 / var(--tw-bg-opacity, 1));
-}
-
-.bg-black\/30 {
-  background-color: rgb(13 40 37 / 0.3);
-}
-
-.bg-black\/50 {
-  background-color: rgb(13 40 37 / 0.5);
-}
-
 .bg-gradient-to-t {
   background-image: linear-gradient(to top, var(--tw-gradient-stops));
 }
@@ -1061,14 +1052,6 @@ p:last-child {
 
 .bg-cover {
   background-size: cover;
-}
-
-.bg-contain {
-  background-size: contain;
-}
-
-.bg-auto {
-  background-size: auto;
 }
 
 .bg-center {
@@ -1108,6 +1091,11 @@ p:last-child {
 .px-12 {
   padding-left: 3rem;
   padding-right: 3rem;
+}
+
+.px-3 {
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
 }
 
 .px-4 {
@@ -1163,6 +1151,11 @@ p:last-child {
 .py-9 {
   padding-top: 2.25rem;
   padding-bottom: 2.25rem;
+}
+
+.py-\[5px\] {
+  padding-top: 5px;
+  padding-bottom: 5px;
 }
 
 .pb-7 {
@@ -1268,10 +1261,6 @@ p:last-child {
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity, 1));
-}
-
-.bg-blend-overlay {
-  background-blend-mode: overlay;
 }
 
 .shadow-lg {
@@ -1551,6 +1540,14 @@ p:last-child {
     grid-column: span 3 / span 3;
   }
 
+  .lg\:float-left {
+    float: left;
+  }
+
+  .lg\:clear-both {
+    clear: both;
+  }
+
   .lg\:-mt-28 {
     margin-top: -7rem;
   }
@@ -1561,6 +1558,10 @@ p:last-child {
 
   .lg\:mb-\[500px\] {
     margin-bottom: 500px;
+  }
+
+  .lg\:mr-10 {
+    margin-right: 2.5rem;
   }
 
   .lg\:flex {
@@ -1603,6 +1604,11 @@ p:last-child {
 
   .lg\:text-left {
     text-align: left;
+  }
+
+  .lg\:text-5xl {
+    font-size: 3rem;
+    line-height: 1;
   }
 }
 
