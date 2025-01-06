@@ -185,3 +185,15 @@ new Swiper(".swiper-3", {
     delay: 2000,
   },
 });
+
+// Swiper Slide for Blog Post
+new Swiper(".blogPostSwiper", {
+  cssMode: true,
+  pagination: {
+    el: ".swiper-pagination",
+    clickable: true,
+    renderBullet: function (index, className) {
+      return '<span class="' + className + '">' + (index + 1) + "</span>";
+    },
+  },
+});

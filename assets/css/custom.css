@@ -49,3 +49,29 @@
 .inovative-swiper:hover > div {
   z-index: 10;
 }
+
+/* Blog Post */
+
+.swiper-pagination{
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+
+.swiper-pagination-bullet {
+      width: 40px;
+      height: 40px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-radius: 5px;
+      font-size: 16px;
+      color: #000;
+      opacity: 1;
+      background: #F1F5F5;
+    }
+
+  .swiper-pagination-bullet-active {
+    color: #fff;
+    background: #32B9A9;
+  }
