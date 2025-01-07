@@ -75,3 +75,7 @@
     color: #fff;
     background: #32B9A9;
   }
+
+  .blogPostSwiper .swiper-wrapper .swiper-slide{
+    padding-bottom: 80px;
+  }

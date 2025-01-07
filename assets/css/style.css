@@ -801,6 +801,10 @@ p:last-child {
   margin-top: 2.5rem;
 }
 
+.mt-0 {
+  margin-top: 0px;
+}
+
 .box-border {
   box-sizing: border-box;
 }
@@ -858,6 +862,10 @@ p:last-child {
 
 .h-\[580px\] {
   height: 580px;
+}
+
+.h-\[100\%\] {
+  height: 100%;
 }
 
 .max-h-\[256px\] {
@@ -1389,6 +1397,10 @@ p:last-child {
   padding-right: 0.75rem;
 }
 
+.pr-10 {
+  padding-right: 2.5rem;
+}
+
 .text-center {
   text-align: center;
 }
@@ -1891,6 +1903,11 @@ p:last-child {
 
   .md\:text-left {
     text-align: left;
+  }
+
+  .md\:text-2xl {
+    font-size: 1.5rem;
+    line-height: 2rem;
   }
 }
 
