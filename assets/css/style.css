@@ -679,10 +679,6 @@ p:last-child {
   background-color: rgb(13 40 37 / var(--tw-bg-opacity, 1));
 }
 
-.static {
-  position: static;
-}
-
 .fixed {
   position: fixed;
 }
@@ -726,14 +722,6 @@ p:last-child {
 
 .top-1\/2 {
   top: 50%;
-}
-
-.bottom-0 {
-  bottom: 0px;
-}
-
-.left-0 {
-  left: 0px;
 }
 
 .-z-10 {
@@ -811,6 +799,38 @@ p:last-child {
 
 .mt-10 {
   margin-top: 2.5rem;
+}
+
+.ml-5 {
+  margin-left: 1.25rem;
+}
+
+.mt-5 {
+  margin-top: 1.25rem;
+}
+
+.mt-1 {
+  margin-top: 0.25rem;
+}
+
+.mt-2 {
+  margin-top: 0.5rem;
+}
+
+.mt-3 {
+  margin-top: 0.75rem;
+}
+
+.mt-0 {
+  margin-top: 0px;
+}
+
+.mb-0 {
+  margin-bottom: 0px;
+}
+
+.-mb-5 {
+  margin-bottom: -1.25rem;
 }
 
 .box-border {
@@ -989,6 +1009,10 @@ p:last-child {
   list-style-type: decimal;
 }
 
+.list-disc {
+  list-style-type: disc;
+}
+
 .grid-cols-1 {
   grid-template-columns: repeat(1, minmax(0, 1fr));
 }
@@ -1063,6 +1087,14 @@ p:last-child {
 
 .gap-8 {
   gap: 2rem;
+}
+
+.gap-\[70px\] {
+  gap: 70px;
+}
+
+.gap-\[80px\] {
+  gap: 80px;
 }
 
 .space-x-3 > :not([hidden]) ~ :not([hidden]) {
@@ -1381,6 +1413,11 @@ p:last-child {
   padding-bottom: 7px;
 }
 
+.py-\[26px\] {
+  padding-top: 26px;
+  padding-bottom: 26px;
+}
+
 .pb-10 {
   padding-bottom: 2.5rem;
 }
@@ -1457,11 +1494,6 @@ p:last-child {
 .text-xs {
   font-size: 0.75rem;
   line-height: 1rem;
-}
-
-.text-3xl {
-  font-size: 1.875rem;
-  line-height: 2.25rem;
 }
 
 .font-bold {
@@ -1769,11 +1801,6 @@ p:last-child {
 }
 
 @media not all and (min-width: 768px) {
-  .max-md\:mx-auto {
-    margin-left: auto;
-    margin-right: auto;
-  }
-
   .max-md\:w-full {
     width: 100%;
   }
@@ -1790,6 +1817,10 @@ p:last-child {
 
   .sm\:mt-28 {
     margin-top: 7rem;
+  }
+
+  .sm\:mt-2 {
+    margin-top: 0.5rem;
   }
 
   .sm\:h-\[90px\] {
@@ -1822,6 +1853,18 @@ p:last-child {
 
   .sm\:gap-5 {
     gap: 1.25rem;
+  }
+
+  .sm\:gap-16 {
+    gap: 4rem;
+  }
+
+  .sm\:gap-10 {
+    gap: 2.5rem;
+  }
+
+  .sm\:gap-12 {
+    gap: 3rem;
   }
 
   .sm\:p-3 {

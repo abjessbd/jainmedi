@@ -1,0 +1,505 @@
+<!doctype html>
+<html lang="en" class="dark">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JainMedi | Home Page</title>
+
+    <!-- Site font -->
+    <link rel="stylesheet" href="assets/fonts/webfonts/inter/stylesheet.css" />
+    <link rel="stylesheet" href="assets/fonts/webfonts/general-sans/stylesheet.css" />
+
+    <!-- Vendor CSS -->
+    <link rel="stylesheet" href="assets/css/vendors/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="assets/css/vendors/jos.css" />
+    <link rel="stylesheet" href="assets/css/vendors/menu.css" />
+    <link rel="stylesheet" href="assets/css/vendors/fontawesome.css" />
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="assets/css/custom.css" />
+
+    <!-- Development css -->
+    <link rel="stylesheet" href="assets/css/style.css" />
+
+    <!-- Production css -->
+    <!-- <link rel="stylesheet" href="/assets/css/style.min.css" /> -->
+</head>
+
+<body class="">
+    <div class="relative page-wrapper">
+        <!--...::: Header Start :::... -->
+        <header class="mb-16">
+            <nav class="w-full bg-white py-4 shadow-md fixed top-0 z-50">
+                <div class="container flex justify-between items-center">
+                    <div>
+                        <a href="index.html"><img src="./assets/images/Logo.png" alt="logo" class="cursor-pointer"></a>
+                    </div>
+                    <ul class="hidden lg:flex md:gap-5">
+                        <li><a href="index.html"
+                                class="transition-all duration-200 pb-7 hover:border-b-4 border-green">Home</a>
+                        </li>
+                        <li><a href="about-us.html"
+                                class="transition-all duration-200 pb-7 hover:border-b-4 border-green">About</a>
+                        </li>
+                        <li><a href="department.html"
+                                class="transition-all duration-200 pb-7 hover:border-b-4 border-green">Department</a>
+                        </li>
+                        <li><a href="doctor.html"
+                                class="transition-all duration-200 pb-7 hover:border-b-4 border-green">Doctor</a></li>
+                        <li><a href="#" class="transition-all duration-200 pb-7 hover:border-b-4 border-green">Pages</a>
+                        </li>
+                        <li><a href="#" class="transition-all duration-200 pb-7 hover:border-b-4 border-green">News</a>
+                        </li>
+                        <li><a href="#"
+                                class="transition-all duration-200 pb-7 hover:border-b-4 border-green">Contact</a></li>
+                    </ul>
+                    <div class="flex gap-5">
+                        <button class="hidden md:block btn btn-primary">Make An
+                            Appoinment</button>
+                        <img src="./assets/images/icon/hamburger.svg" alt="hamburger menu"
+                            class="w-7 lg:hidden cursor-pointer" id="hamburger-icon">
+                        <img src="./assets/images/icon/cross.svg" alt="cross menu"
+                            class="w-7 hidden lg:hidden cursor-pointer" id="cross-icon">
+                    </div>
+                </div>
+
+                <!-- Navbar for Mobile -->
+                <div id="mobile-nav"
+                    class="container shadow-lg -translate-x-full transition-all duration-500 px-4 md:px-10 py-5 w-3/4 mx-autoh-screen bg-white fixed top-0 flex flex-col gap-10 lg:hidden">
+                    <div>
+                        <a href="index.html"><img src="./assets/images/Logo.png" alt="logo" class="cursor-pointer"></a>
+                    </div>
+                    <ul class="flex flex-col gap-5">
+                        <li><a href="index.html"
+                                class="transition-all duration-200 hover:border-b-4 border-green">Home</a></li>
+                        <li><a href="about-us.html"
+                                class="transition-all duration-200 hover:border-b-4 border-green">About</a></li>
+                        <li><a href="department.html"
+                                class="transition-all duration-200 hover:border-b-4 border-green">Department</a>
+                        </li>
+                        <li><a href="doctor.html"
+                                class="transition-all duration-200 hover:border-b-4 border-green">Doctor</a>
+                        </li>
+                        <li><a href="#" class="transition-all duration-200 hover:border-b-4 border-green">Pages</a></li>
+                        <li><a href="#" class="transition-all duration-200 hover:border-b-4 border-green">News</a></li>
+                        <li><a href="#" class="transition-all duration-200 hover:border-b-4 border-green">Contact</a>
+                        </li>
+                    </ul>
+                    <div>
+                        <button class="md:hidden btn btn-primary">Make An Appoinment</button>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <!--...::: Header End :::... -->
+
+        <!-- Main Wrapper Start -->
+        <main class="relative main-wrapper">
+            <!-- Department Section Start -->
+            <section class="department-section">
+                <!-- Section Space Start -->
+                <div style="background:linear-gradient(#f1f5f5b5, #f1f5f5b5), url('./assets/images/image/about-us-bg-left.png') left top no-repeat, url('./assets/images/image/about-us-bg-right.png') right top no-repeat; background-size: 50% 100%;"
+                    class="section-space">
+                    <!-- Section Container Start -->
+                    <div class="container">
+                        <div class="text-center">
+                            <h1 class="lg:text-5xl mb-7">Blog Details</h1>
+                            <a href="index.html">
+                                <button class="btn btn-primary py-[5px] px-3 rounded-[5px] text-sm">Home
+                                    // Blog</button>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- Section Container End -->
+                </div>
+                <!-- Section Space End-->
+            </section>
+            <!-- Department Section End -->
+
+            <!-- Department Details Section Start -->
+            <section class="department-details-section">
+                <!-- Section Space Start -->
+                <div class="section-space">
+                    <!-- Section Container Start -->
+                    <div class="container grid grid-cols-1 lg:grid-cols-3 gap-[80px] sm:gap-12">
+                        <!-- Left Side Start -->
+                        <div class="space-y-12 col-span-1">
+                            <!-- Search Start -->
+                            <label class="relative block">
+                                <input
+                                    class="placeholder:text-slate-400 block bg-white w-full border border-slate-300 rounded-md py-3 pl-3 pr-3 shadow-sm focus:outline-none focus:border-green focus:ring-green focus:ring-1 sm:text-sm"
+                                    placeholder="Search Here..." type="text" name="search" />
+                                <span class="absolute inset-y-0 right-3 flex items-center">
+                                    <i class="fa-solid fa-magnifying-glass text-green"></i>
+                                </span>
+                            </label>
+                            <!-- Search End -->
+                            <!-- Our Departments Start -->
+                            <div>
+                                <h3 class="text-2xl mb-6">Our Departments:</h3>
+                                <div class="space-y-3">
+                                    <a href="#"
+                                        class="border-2 border-gray-light px-3 py-2 flex justify-between items-center gap-3 rounded group hover:border-green transition-all duration-300">
+                                        <button class="capitalize text-[18px] text-gray-dark">holter heart
+                                            surgery</button>
+                                        <span
+                                            class="group-hover:text-green transition-all duration-300 text-gray-dark">></span>
+                                    </a>
+                                    <a href="#"
+                                        class="border-2 border-gray-light px-3 py-2 flex justify-between items-center gap-3 rounded group hover:border-green transition-all duration-300">
+                                        <button class="capitalize text-[18px] text-gray-dark">diagnose and
+                                            research</button>
+                                        <span
+                                            class="group-hover:text-green transition-all duration-300 text-gray-dark">></span>
+                                    </a>
+                                    <a href="#"
+                                        class="border-2 border-gray-light px-3 py-2 flex justify-between items-center gap-3 rounded group hover:border-green transition-all duration-300">
+                                        <button class="capitalize text-[18px] text-gray-dark">therapy
+                                            rehabilitation</button>
+                                        <span
+                                            class="group-hover:text-green transition-all duration-300 text-gray-dark">></span>
+                                    </a>
+                                    <a href="#"
+                                        class="border-2 border-gray-light px-3 py-2 flex justify-between items-center gap-3 rounded group hover:border-green transition-all duration-300">
+                                        <button class="capitalize text-[18px] text-gray-dark">therapy
+                                            rehabilitation</button>
+                                        <span
+                                            class="group-hover:text-green transition-all duration-300 text-gray-dark">></span>
+                                    </a>
+                                    <a href="#"
+                                        class="border-2 border-gray-light px-3 py-2 flex justify-between items-center gap-3 rounded group hover:border-green transition-all duration-300">
+                                        <button class="capitalize text-[18px] text-gray-dark">pathology clinic</button>
+                                        <span
+                                            class="group-hover:text-green transition-all duration-300 text-gray-dark">></span>
+                                    </a>
+                                    <a href="#"
+                                        class="border-2 border-gray-light px-3 py-2 flex justify-between items-center gap-3 rounded group hover:border-green transition-all duration-300">
+                                        <button class="capitalize text-[18px] text-gray-dark">dental surgery</button>
+                                        <span
+                                            class="group-hover:text-green transition-all duration-300 text-gray-dark">></span>
+                                    </a>
+                                </div>
+                            </div>
+                            <!-- Our Departments End -->
+                            <!-- Recent Post Start -->
+                            <div>
+                                <h3 class="text-2xl mb-6">Recent Post:</h3>
+                                <div class="space-y-4 rounded">
+                                    <div class="flex flex-col justify-center items-center md:items-start gap-5">
+                                        <!-- Card Start -->
+                                        <a href="blog-details.html"
+                                            class="bg-white p-2 rounded-md flex flex-col sm:flex-row justify-center sm:justify-start items-start gap-5 group hover:bg-green transition-all duration-300">
+                                            <div>
+                                                <img src="./assets/images/image/blog-post-2.jpg" alt="latest-news-img-1"
+                                                    width="148px" height="148px">
+                                            </div>
+                                            <div>
+                                                <h4
+                                                    class="text-[17px] leading-normal mb-2 group-hover:text-white transition-all duration-300">
+                                                    Sodales neque sodales and
+                                                    etiam nulla magna veniam.</h4>
+                                                <p
+                                                    class="text-[16px] text-green group-hover:text-white transition-all duration-300">
+                                                    02 January,
+                                                    2023</p>
+                                            </div>
+                                        </a>
+                                        <!-- Card End -->
+                                        <!-- Card Start -->
+                                        <a href="blog-details.html"
+                                            class="bg-white p-2 rounded-md flex flex-col sm:flex-row justify-center sm:justify-start items-start gap-5 group hover:bg-green transition-all duration-300">
+                                            <div>
+                                                <img src="./assets/images/image/blog-post-4.jpg" alt="latest-news-img-1"
+                                                    width="148px" height="148px">
+                                            </div>
+                                            <div>
+                                                <h4
+                                                    class="text-[17px] leading-normal mb-2 group-hover:text-white transition-all duration-300">
+                                                    Sodales neque sodales and
+                                                    etiam nulla magna veniam.</h4>
+                                                <p
+                                                    class="text-[16px] text-green group-hover:text-white transition-all duration-300">
+                                                    02 January,
+                                                    2023</p>
+                                            </div>
+                                        </a>
+                                        <!-- Card End -->
+                                        <!-- Card Start -->
+                                        <a href="blog-details.html"
+                                            class="bg-white p-2 rounded-md flex flex-col sm:flex-row justify-center sm:justify-start items-start gap-5 group hover:bg-green transition-all duration-300">
+                                            <div>
+                                                <img src="./assets/images/image/blog-post-6.jpg" alt="latest-news-img-1"
+                                                    width="148px" height="148px">
+                                            </div>
+                                            <div>
+                                                <h4
+                                                    class="text-[17px] leading-normal mb-2 group-hover:text-white transition-all duration-300">
+                                                    Sodales neque sodales and
+                                                    etiam nulla magna veniam.</h4>
+                                                <p
+                                                    class="text-[16px] text-green group-hover:text-white transition-all duration-300">
+                                                    02 January,
+                                                    2023</p>
+                                            </div>
+                                        </a>
+                                        <!-- Card End -->
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Recent Post End -->
+                            <!-- Popular Tags Start -->
+                            <div>
+                                <h3 class="text-2xl mb-6">Popular Tags:</h3>
+                                <div class="space-y-4 rounded">
+                                    <div class="flex flex-col sm:flex-row justify-center items-center gap-5">
+                                        <a href="#"
+                                            class="max-md:w-full max-md:text-center text-lg px-[30px] lg:max-xl:px-3 py-[7px] border border-gray-dark rounded hover:bg-green hover:text-white hover:border-green transition-all duration-200">Cardiology</a>
+                                        <a href="#"
+                                            class="max-md:w-full max-md:text-center text-lg px-[50px] lg:max-xl:px-8 py-[7px] border border-gray-dark rounded hover:bg-green hover:text-white hover:border-green transition-all duration-200">Neurology</a>
+                                    </div>
+                                    <div class="flex flex-col sm:flex-row justify-center items-center gap-5">
+                                        <a href="#"
+                                            class="max-md:w-full max-md:text-center text-lg px-[42px] lg:max-xl:px-6 py-[7px] border border-gray-dark rounded hover:bg-green hover:text-white hover:border-green transition-all duration-200">Dental
+                                            Care</a>
+                                        <a href="#"
+                                            class="max-md:w-full max-md:text-center text-lg px-[25px] lg:max-xl:px-2 py-[7px] border border-gray-dark rounded hover:bg-green hover:text-white hover:border-green transition-all duration-200">Orthopaedic</a>
+                                    </div>
+                                    <div class="flex flex-col sm:flex-row justify-center items-center gap-5">
+                                        <a href="#"
+                                            class="max-md:w-full max-md:text-center text-lg px-[22px] lg:max-xl:px-2 py-[7px] border border-gray-dark rounded hover:bg-green hover:text-white hover:border-green transition-all duration-200">Gastrologic</a>
+                                        <a href="#"
+                                            class="max-md:w-full max-md:text-center text-lg px-[38px] lg:max-xl:px-4 py-[7px] border border-gray-dark rounded hover:bg-green hover:text-white hover:border-green transition-all duration-200">Neuro
+                                            Surgery</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Popular Tags End -->
+                        </div>
+                        <!-- Left Side End -->
+
+                        <!-- Right Side Start -->
+                        <div class="space-y-12 col-span-1 lg:col-span-2">
+                            <!-- Image Start -->
+                            <div class="-mb-5">
+                                <img class="rounded-md" src="assets/images/image/blog-details-img.jpg"
+                                    alt="blog-details-img" width="730" height="370">
+                            </div>
+                            <!-- Image End -->
+                            <!-- First Para Start -->
+                            <div>
+                                <h3 class="text-[26px] leading-normal capitalize">Lorem ipsum dolor sit amet,
+                                    consectetur
+                                    adipiscing elit, sed do
+                                    eiusmod tempor</h3>
+                                <p class="text-green text-[18px] mt-5">18 March, 2023</p>
+                                <p class="text-gray-dark text-[18px]">Lorem ipsum dolor sit amet, consectetur adipiscing
+                                    elit, sed do eiusmod tempor
+                                    incididunt ut labore et dolore magna
+                                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                                    aliquip ex ea commodo consequat. Duis
+                                    aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+                                    nulla pariatur. Excepteur sint
+                                    occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
+                                    est laborum.</p>
+                                <ul class="list-disc ml-5 text-gray-dark">
+                                    <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit,</li>
+                                    <li>Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</li>
+                                    <li>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi</li>
+                                    <li>Commodo consequat. Duis aute irure dolor in reprehenderit in</li>
+                                    <li>Voluptate velit esse cillum dolore eu fugiat nulla pariatur.</li>
+                                </ul>
+                                <p class="text-gray-dark text-[18px] mt-5">Lorem ipsum dolor sit amet, consectetur
+                                    adipiscing
+                                    elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+                                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                                    aliquip ex ea commodo consequat.</p>
+                            </div>
+                            <!-- First Para End -->
+                            <!-- Second Para Start -->
+                            <div>
+                                <h3 class="text-[26px] leading-normal capitalize">Lorem ipsum dolor sit amet,
+                                    consectetur</h3>
+                                <p class="text-gray-dark text-[18px] mt-5">Lorem ipsum dolor sit amet, consectetur
+                                    adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+                                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                                    aliquip ex ea commodo consequat.</p>
+                                <h4 class="text-xl capitalize text-green bg-gray-light px-10 py-[26px] rounded">"Lorem
+                                    ipsum dolor
+                                    sit
+                                    amet, consectetur
+                                    adipiscing elit,
+                                    sed do eiusmod tempor incididunt ut labore et dolore magna
+                                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation"</h4>
+                                <p class="text-gray-dark text-[18px] mt-5">Lorem ipsum dolor sit amet, consectetur
+                                    adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+                                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                                    aliquip ex ea commodo consequat.</p>
+                            </div>
+                            <!-- Second Para End -->
+                            <!-- Third Para Start -->
+                            <div>
+                                <h3 class="text-[26px] leading-normal capitalize">Lorem ipsum dolor sit amet,
+                                    consectetur</h3>
+                                <p class="text-gray-dark text-[18px] mt-5">Lorem ipsum dolor sit amet, consectetur
+                                    adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+                                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                                    aliquip ex ea commodo consequat.</p>
+                                <ol class="list-decimal ml-5 text-gray-dark">
+                                    <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit,</li>
+                                    <li>Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</li>
+                                    <li>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi</li>
+                                    <li>Commodo consequat. Duis aute irure dolor in reprehenderit in</li>
+                                    <li>Voluptate velit esse cillum dolore eu fugiat nulla pariatur.</li>
+                                </ol>
+                                <p class="text-gray-dark text-[18px] mt-5">Lorem ipsum dolor sit amet, consectetur
+                                    adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+                                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                                    aliquip ex ea commodo consequat.</p>
+                            </div>
+                            <!-- Third Para End -->
+                            <!-- Fourth Para Start -->
+                            <div>
+                                <h3 class="text-[26px] leading-normal capitalize">Lorem ipsum dolor sit amet,
+                                    consectetur</h3>
+                                <p class="text-gray-dark text-[18px] mt-5">Lorem ipsum dolor sit amet, consectetur
+                                    adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+                                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                                    aliquip ex ea commodo consequat.</p>
+                                <p class="text-gray-dark text-[18px] mt-5">Lorem ipsum dolor sit amet, consectetur
+                                    adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+                                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                                    aliquip ex ea commodo consequat.</p>
+                                <p class="text-gray-dark text-[18px] mt-5">Lorem ipsum dolor sit amet, consectetur
+                                    adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+                                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                                    aliquip ex ea commodo consequat.</p>
+                            </div>
+                            <!-- Fourth Para End -->
+                            <!-- Share Post Start -->
+                            <div
+                                class="flex flex-col sm:flex-row justify-center items-center gap-5 py-2 bg-gray-light rounded-md">
+                                <h4 class="text-xl">Share Post:</h4>
+                                <div class="space-x-3 sm:mt-2">
+                                    <i
+                                        class="fa-brands fa-facebook p-2 sm:p-3 bg-white text-black rounded-full size-4 cursor-pointer hover:bg-green hover:text-white transition-all duration-200"></i>
+                                    <i
+                                        class="fa-brands fa-twitter p-2 sm:p-3 bg-white text-black rounded-full size-4 cursor-pointer hover:bg-green hover:text-white transition-all duration-200"></i>
+                                    <i
+                                        class="fa-brands fa-skype p-2 sm:p-3 bg-white text-black rounded-full size-4 cursor-pointer hover:bg-green hover:text-white transition-all duration-200"></i>
+                                    <i
+                                        class="fa-brands fa-linkedin p-2 sm:p-3 bg-white text-black rounded-full size-4 cursor-pointer hover:bg-green hover:text-white transition-all duration-200"></i>
+                                </div>
+                            </div>
+                            <!-- Share Post End -->
+                        </div>
+                        <!-- Right Side End -->
+                    </div>
+                    <!-- Section Container End -->
+                </div>
+                <!-- Section Space End -->
+            </section>
+            <!-- Department Details Section End -->
+        </main>
+        <!-- Main Wrapper End -->
+    </div>
+
+    <!--...::: Footer Section Start :::... -->
+    <footer class="section-footer">
+        <!-- Footer Details section -->
+        <section class="footer-details-section">
+            <!-- Section Space -->
+            <div class="section-space bg-black">
+                <!-- Section Container -->
+                <div
+                    class="container grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-3 justify-items-center justify-between items-start gap-16">
+                    <!-- About Us -->
+                    <div class="text-gray-dark flex flex-col gap-10 justify-center items-start">
+                        <h5 class="text-white">// about us</h5>
+                        <p class="m-0">Lorem ipsum dolor sit amet, <br> consectetur adipiscing elit, sed do <br> eiusmod
+                            tempor <br>
+                            Lorem ipsum dolor sit amet, <br> consectetur adipiscing elit, sed do <br> eiusmod tempor</p>
+                        <div class="space-x-3">
+                            <i
+                                class="fa-brands fa-facebook w-11 h-11 cursor-pointer hover:text-white transition-all duration-200"></i>
+                            <i
+                                class="fa-brands fa-twitter w-11 h-11 cursor-pointer hover:text-white transition-all duration-200"></i>
+                            <i
+                                class="fa-brands fa-skype w-11 h-11 cursor-pointer hover:text-white transition-all duration-200"></i>
+                            <i
+                                class="fa-brands fa-linkedin w-11 h-11 cursor-pointer hover:text-white transition-all duration-200"></i>
+                        </div>
+                    </div>
+                    <!-- About Us -->
+
+                    <!-- Our Services -->
+                    <div class="text-gray-dark">
+                        <h5 class="text-white mb-10">// our services</h5>
+                        <div class="flex flex-col justify-center items-start gap-3">
+                            <p class="m-0"><span>></span> Neurology department</p>
+                            <p class="m-0"><span>></span> Oncology department</p>
+                            <p class="m-0"><span>></span> Orthopaedics department</p>
+                            <p class="m-0"><span>></span> Rehabilitation department</p>
+                            <p class="m-0"><span>></span> Psychiatry department</p>
+                            <p class="m-0"><span>></span> Dermatology department</p>
+                        </div>
+                    </div>
+                    <!-- Our Services -->
+
+                    <!-- Contact Us -->
+                    <div class="text-gray-light">
+                        <h5 class="text-white mb-10">// contact us:</h5>
+                        <div class="flex flex-col justify-center items-start gap-5">
+                            <div class="flex justify-start items-start gap-3">
+                                <i class="fa-solid fa-clock w-8 h-8 text-green pr-3 border-r border-gray-dark"></i>
+                                <p>Hours <br> Monday - Friday: 8 AM - 5:30 PM <br> Saturday - Sunday: <span
+                                        class="text-green">Closed</span>
+                                </p>
+                            </div>
+                            <div class="flex justify-start items-start gap-3">
+                                <i
+                                    class="fa-solid fa-phone-volume w-8 h-8 text-green pr-3 border-r border-gray-dark"></i>
+                                <p>Call Us: <br> (000) 987-3267 </p>
+                            </div>
+                            <div class="flex justify-start items-start gap-3">
+                                <i
+                                    class="fa-solid fa-location-dot w-8 h-8 text-green pr-3 border-r border-gray-dark"></i>
+                                <p>Location <br> 242 Carlyle RdZebulon, <br> North Carolina(NC), 27597
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Contact Us -->
+                </div>
+                <!-- Section Container -->
+            </div>
+            <!-- Section Space -->
+        </section>
+        <!-- Footer Details section -->
+
+        <!-- Footer End Section -->
+        <section class="py-5 bg-black">
+            <div class="container">
+                <p class="text-center text-gray-dark text-[18px]">&copy; 2023 design and developed by <span
+                        class="text-green">Jynflow.</span> Powered by
+                    <span class="text-green">Webflow.</span>
+                </p>
+            </div>
+        </section>
+        <!-- Footer End Section -->
+    </footer>
+    <!--...::: Footer Section End :::... -->
+
+    <!--Vendor js-->
+    <script src="assets/js/vendors/counterup.js" type="module"></script>
+    <script src="assets/js/vendors/swiper-bundle.min.js"></script>
+    <script src="assets/js/vendors/fslightbox.js"></script>
+    <script src="assets/js/vendors/jos.min.js"></script>
+    <script src="assets/js/vendors/menu.js"></script>
+    <script src="assets/js/vendors/fontawesome.js"></script>
+
+    <!-- Main js -->
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>
