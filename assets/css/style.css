@@ -679,6 +679,10 @@ p:last-child {
   background-color: rgb(13 40 37 / var(--tw-bg-opacity, 1));
 }
 
+.static {
+  position: static;
+}
+
 .fixed {
   position: fixed;
 }
@@ -722,6 +726,14 @@ p:last-child {
 
 .top-1\/2 {
   top: 50%;
+}
+
+.bottom-0 {
+  bottom: 0px;
+}
+
+.left-0 {
+  left: 0px;
 }
 
 .-z-10 {
@@ -801,10 +813,6 @@ p:last-child {
   margin-top: 2.5rem;
 }
 
-.mt-0 {
-  margin-top: 0px;
-}
-
 .box-border {
   box-sizing: border-box;
 }
@@ -862,10 +870,6 @@ p:last-child {
 
 .h-\[580px\] {
   height: 580px;
-}
-
-.h-\[100\%\] {
-  height: 100%;
 }
 
 .max-h-\[256px\] {
@@ -1397,10 +1401,6 @@ p:last-child {
   padding-right: 0.75rem;
 }
 
-.pr-10 {
-  padding-right: 2.5rem;
-}
-
 .text-center {
   text-align: center;
 }
@@ -1457,6 +1457,11 @@ p:last-child {
 .text-xs {
   font-size: 0.75rem;
   line-height: 1rem;
+}
+
+.text-3xl {
+  font-size: 1.875rem;
+  line-height: 2.25rem;
 }
 
 .font-bold {
@@ -1763,6 +1768,21 @@ p:last-child {
   opacity: 1;
 }
 
+@media not all and (min-width: 768px) {
+  .max-md\:mx-auto {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .max-md\:w-full {
+    width: 100%;
+  }
+
+  .max-md\:text-center {
+    text-align: center;
+  }
+}
+
 @media (min-width: 576px) {
   .sm\:mb-\[1000px\] {
     margin-bottom: 1000px;
@@ -1903,11 +1923,6 @@ p:last-child {
 
   .md\:text-left {
     text-align: left;
-  }
-
-  .md\:text-2xl {
-    font-size: 1.5rem;
-    line-height: 2rem;
   }
 }
 
