@@ -134,7 +134,8 @@
                             <!-- Contact Parent Start -->
                             <div class="grid grid-cols-1 lg:grid-cols-10 gap-5">
                                 <!-- Contact Information Start -->
-                                <div class="text-white bg-green p-5 md:p-16 rounded col-span-1 lg:col-span-4">
+                                <div
+                                    class="text-white bg-green p-5 md:p-16 lg:max-xl:p-10 rounded col-span-1 lg:col-span-4">
                                     <h2 class="max-md:text-2xl leading-normal mb-10">Contact <br> Information:</h2>
                                     <div class="flex flex-col justify-center items-start gap-5">
                                         <div class="flex justify-start items-start gap-3">
@@ -160,11 +161,52 @@
                                 <!-- Form Start -->
                                 <div class="col-span-1 lg:col-span-6">
                                     <form
-                                        class="p-16 bg-gradient-to-r from-gray-light via-gray-light to-[rgba(50,185,169,0.35)]">
-                                        <input type="text" name="firstName" id="firstName" placeholder="First Name:">
-                                        <input type="text" name="lastName" id="lastName" placeholder="Last Name:">
-                                        <input type="email" name="email" id="email" placeholder="Email:">
-                                        <input type="number" name="phone" id="phone" placeholder="Phone:">
+                                        class="p-5 md:p-16 bg-gradient-to-r from-gray-light via-gray-light to-[rgba(50,185,169,0.35)] space-y-8 rounded">
+                                        <div class="w-full flex flex-col md:flex-row gap-5">
+                                            <div class="w-full md:w-1/2">
+                                                <input
+                                                    class="block w-full p-4 rounded focus:outline-none focus:outline-green text-sm text-gray-dark"
+                                                    type="text" name="firstName" id="firstName"
+                                                    placeholder="First Name:">
+                                            </div>
+                                            <div class="w-full md:w-1/2">
+                                                <input
+                                                    class="block w-full p-4 rounded focus:outline-none focus:outline-green text-sm text-gray-dark"
+                                                    type="text" name="lastName" id="lastName" placeholder="Last Name:">
+                                            </div>
+                                        </div>
+                                        <div class="w-full flex flex-col md:flex-row gap-5">
+                                            <div class="w-full md:w-1/2">
+                                                <input
+                                                    class="block w-full p-4 rounded focus:outline-none focus:outline-green text-sm text-gray-dark"
+                                                    type="email" name="email" id="email" placeholder="Email:">
+                                            </div>
+                                            <div class="w-full md:w-1/2">
+                                                <input
+                                                    class="block w-full p-4 rounded focus:outline-none focus:outline-green text-sm text-gray-dark"
+                                                    type="number" name="phone" id="phone" placeholder="Phone:">
+                                            </div>
+                                        </div>
+                                        <div class="w-full">
+                                            <select
+                                                class="block w-full p-4 rounded focus:outline-none focus:outline-green text-sm text-gray-dark"
+                                                name="subject" id="subject">
+                                                <option value="Subject:">Subject:</option>
+                                                <option value="Neurology">Neurology</option>
+                                                <option value="Orthopaedic">Orthopaedic</option>
+                                                <option value="Brain">Brain</option>
+                                            </select>
+                                        </div>
+                                        <div class="w-full">
+                                            <textarea
+                                                class="block w-full p-4 rounded focus:outline-none focus:outline-green text-sm text-gray-dark"
+                                                name="message" id="message" rows="5"
+                                                placeholder="Write a Message...."></textarea>
+                                        </div>
+                                        <div class="w-full">
+                                            <input class="btn btn-primary cursor-pointer" type="submit"
+                                                value="Send Message">
+                                        </div>
                                     </form>
                                 </div>
                                 <!-- Form End -->
