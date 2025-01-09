@@ -197,3 +197,33 @@ new Swiper(".blogPostSwiper", {
     },
   },
 });
+
+// FAQ Accordion Section
+let currentOpen = null; // Track the currently opened accordion
+
+function toggleAccordion(id) {
+  const content = document.getElementById(`content-${id}`);
+  const iconPlus = document.getElementById(`icon-plus-${id}`);
+  const iconMinus = document.getElementById(`icon-minus-${id}`);
+
+  if (currentOpen === id) {
+    // If the same accordion is clicked, toggle it closed
+    content.classList.add('hidden');
+    iconPlus.classList.remove('hidden');
+    iconMinus.classList.add('hidden');
+    currentOpen = null; // No accordion is open now
+  } else {
+    // Close any previously opened accordion
+    if (currentOpen !== null) {
+      document.getElementById(`content-${currentOpen}`).classList.add('hidden');
+      document.getElementById(`icon-plus-${currentOpen}`).classList.remove('hidden');
+      document.getElementById(`icon-minus-${currentOpen}`).classList.add('hidden');
+    }
+
+    // Open the clicked accordion
+    content.classList.remove('hidden');
+    iconPlus.classList.add('hidden');
+    iconMinus.classList.remove('hidden');
+    currentOpen = id; // Update the currently opened accordion
+  }
+}
