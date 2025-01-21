@@ -78,3 +78,15 @@
 .section-space-bottom {
   @apply pb-[60px] lg:pb-20 xl:pb-[100px] xxl:pb-[120px]
 }
+
+.breadcrumb {
+  @apply px-3 py-1.5 bg-green font-semibold text-white inline-flex flex-wrap gap-x-11 justify-center rounded-md mx-auto
+}
+
+.breadcrumb-item {
+  @apply text-white relative after:absolute after:content-['//'] after:last-of-type:content-[''] after:left-[calc(100%+15px)] hover:underline
+}
+
+.breadcrumb-item.active {
+  @apply hover:no-underline
+}

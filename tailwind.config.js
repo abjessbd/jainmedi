@@ -18,6 +18,8 @@ module.exports = {
 
       xxl: "1400px",
       // => @media (min-width: 1400px) { ... }
+      xxxl: "1600px",
+      // => @media (min-width: 1600px) { ... }
     },
     extend: {
       fontFamily: {
